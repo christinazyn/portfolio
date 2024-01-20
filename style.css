@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -268,6 +267,8 @@ section {
 }
 
 .about-containers {
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -282,6 +283,7 @@ section {
 .about-details-container {
   display: flex;
 }
+
 .arrow {
   position: absolute;
   right: -5rem;
@@ -291,6 +293,7 @@ section {
 .details-container {
   padding: 1rem;
   flex: 1;
+  /* flex-wrap: wrap; */
   background: white;
   border-radius: 2rem;
   border: rgb(163, 163, 163) 0.1rem solid;
