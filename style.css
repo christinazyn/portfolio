@@ -283,7 +283,6 @@ section {
 .about-details-container {
   display: flex;
 }
-
 .arrow {
   position: absolute;
   right: -5rem;
@@ -293,7 +292,6 @@ section {
 .details-container {
   padding: 1rem;
   flex: 1;
-  /* flex-wrap: wrap; */
   background: white;
   border-radius: 2rem;
   border: rgb(163, 163, 163) 0.1rem solid;
@@ -317,7 +315,7 @@ section {
 }
 
 .text-container {
-  text-align: center;
+  text-align: left;
 }
 
 /* EXPERIENCE SECTION */
@@ -388,7 +386,7 @@ article .icon {
 
 .project-btn {
   color: black;
-  border-color: rgb(163, 163, 163);
+  border-color: rgb(197, 144, 144);
 }
 
 /* CONTACT */
